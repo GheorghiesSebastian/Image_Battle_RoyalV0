@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Anime Royale v1.exe" version="1.1.0.2" publicKeyToken="775c4a8b5962bd53" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="BRv1icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Anime Royale v1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Anime Royale v1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Anime Royale v1.exe" size="121256">
+      <assemblyIdentity name="Anime Royale v1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LTboget3QP1VlCEFCJ9Xh2X9mbkQMzbb4x+cDwB6wjc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Anime Royale v1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BRv1icon.ico" size="6626">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TwJDT9U+L86dcgmh3+bOCSryOw+ttd59MSp4XXQ4R4g=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CONTROL\Sebi" issuerKeyHash="2e8c0377a5d07b7edb589323517bcd419c71cadd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k2r+WGgH2iqrfn38wHKiVtUHhOGCNOS2Up3jOnTPdUc=</DigestValue></Reference></SignedInfo><SignatureValue>YpgjVJfgtxGJad3lJgjSj02AaBxWsxQCKGBsIHoCjiuBoT7bCjfyuMyLWOf44RPnPvn0cEe/ljzsdZ1T9OUu0xpF9B9I4gn5tu0WNzehC+9HRCwk7UKMAqCPLViLkgMFt8UgiTxUafehgUNWO+wgFkkzpjWaleaRUAAueSczWlo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u4UhmcspVB5oAyBqQ5C4QZutzR5FlGYaMMSjCwq7+oxzZjdQzscAXsHZiQ+iaMgx8Q/RcOD8hnhYv/0oQVlAD9MIKmK3in4shuParP7i6Qgstbhecae6XSbwc4PFFzSrb5KDcZU2eTtNkbTiIuwhC1m8Lh6veAhfBU3KpI8qNpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4775cf743ae39d52b6e43482e18407d556a272c0fc7d7eab2ada076858fe6a93" Description="" Url=""><as:assemblyIdentity name="Anime Royale v1.exe" version="1.1.0.2" publicKeyToken="775c4a8b5962bd53" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CONTROL\Sebi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>okh/HqQOTwGhaUctcoioR1k9j5dyIhAg+UvAz0ZiRHQ=</DigestValue></Reference></SignedInfo><SignatureValue>Qk3BuvAqjZ666lhYofR1z21kA1Cgmv2YMYZGXPYYmLho8ckSJvBBTSBBxAhy1s9oHIc1+97YlV1BVwg65XGQ3lWlexV6Fiw+qbv7RRGCdLD0JPbJMWWx0VNqSnCNWtwc8t9rcKxIJ7cDui+jN01l7Nl6DUXeEsjt1gLA72H4J5Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u4UhmcspVB5oAyBqQ5C4QZutzR5FlGYaMMSjCwq7+oxzZjdQzscAXsHZiQ+iaMgx8Q/RcOD8hnhYv/0oQVlAD9MIKmK3in4shuParP7i6Qgstbhecae6XSbwc4PFFzSrb5KDcZU2eTtNkbTiIuwhC1m8Lh6veAhfBU3KpI8qNpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQHdKloG4BOZhGzMzrcyq2TTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQwBPAE4AVABSAE8ATABcAFMAZQBiAGkwHhcNMjUwMzE2MTQwNTQ4WhcNMjYwMzE2MjAwNTQ4WjAjMSEwHwYDVQQDHhgAQwBPAE4AVABSAE8ATABcAFMAZQBiAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALuFIZnLKVQeaAMgakOQuEGbrc0eRZRmGjDEowsKu/qMc2Y3UM7HAF7B2YkPomjIMfEP0XDg/IZ4WL/9KEFZQA/TCCpit4p+LIbj2qz+4ukILLW4XnGnul0m8HODxRc0q2+Sg3GVNnk7TZG04iLsIQtZvC4er3gIXwVNyqSPKjaVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAa+U2fOhpunukcBOSgofBcJaSVDtajeKayoeWvlALj0RFhJHHNVn5VLcQAcF4WYyh0yv1pbONX0N8m9k9SE9RAO6WB/ofCLEIu2U3BfEv989a9N7GHlNO0qeYprxx2yrkr5DRy2nTDKxjelHZg3hQmMawq6iNKSau2YKp07+vCYc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

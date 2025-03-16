@@ -1,0 +1,16 @@
+C:\Users\Sebi\source\repos\Anime Royale v1\bin\Debug\Anime Royale v1.exe.config
+C:\Users\Sebi\source\repos\Anime Royale v1\bin\Debug\Anime Royale v1.exe
+C:\Users\Sebi\source\repos\Anime Royale v1\bin\Debug\Anime Royale v1.pdb
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime Royale v1.csproj.AssemblyReference.cache
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime_Royale_v1.Form1.resources
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime_Royale_v1.Properties.Resources.resources
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime Royale v1.csproj.GenerateResource.cache
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime Royale v1.csproj.CoreCompileInputs.cache
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime Royale v1.exe
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime Royale v1.pdb
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime_Royale_v1.Form2.resources
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime_Royale_v1.Form3.resources
+C:\Users\Sebi\source\repos\Anime Royale v1\bin\Debug\Anime Royale v1.exe.manifest
+C:\Users\Sebi\source\repos\Anime Royale v1\bin\Debug\Anime Royale v1.application
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime Royale v1.exe.manifest
+C:\Users\Sebi\source\repos\Anime Royale v1\obj\Debug\Anime Royale v1.application
